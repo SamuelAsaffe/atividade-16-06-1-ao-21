@@ -9,6 +9,10 @@ nomes = ['sivir', 'silvio santos',
     'marcelo', 'lucas',
     'judas', 'joão',
     'jonas', 'cirilo']
+let posi=0
+for ( const nome of nomes) {
+    console.log(`Aluno: ${nome}, Posição: ${posi}`);
+    posi++
+}
 
-nomes.sort()
-console.log(nomes)
+

@@ -1,5 +1,3 @@
-console.log("oi")
-i = 0
 nomes = ['sivir', 'silvio santos',
     'shivana', 'samuel',
     'samara', 'mathews',
@@ -9,6 +7,9 @@ nomes = ['sivir', 'silvio santos',
     'marcelo', 'lucas',
     'judas', 'joão',
     'jonas', 'cirilo']
+let notas = []
 
-nomes.sort()
-console.log(nomes)
+for (i = 0; i < nomes.length; i++) {
+    notas.push(Math.floor(Math.random() * 10) + 1)
+}
+notas = notas.map(nota=> nota +1)
