@@ -29,5 +29,11 @@ nomes.forEach(function (nome, index) {
     // console.log(nome + "- Nota: " + nota.toFixed(1) + " - " + situacao)
 })
 
-indice=nomes.indexof("lucas")
-console.log(indice)
+// indice=nomes.indexof("lucas")
+// console.log(indice)
+
+// indice=notas.findIndex(nota=> nota>9.0)
+// console.log(indice)
+
+let estaNaLista = nomes.includes("lucas")
+console.log(estaNaLista);
