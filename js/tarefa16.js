@@ -28,3 +28,6 @@ nomes.forEach(function (nome, index) {
     let situacao = notas[index] >= 7.0 ? "Aprovado" : "Reprovado"
     console.log(nome + "- Nota: " + nota.toFixed(1) + " - " + situacao)
 })
+
+indice=nomes.indexof("lucas")
+console.log(indice)
