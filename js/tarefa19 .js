@@ -29,11 +29,21 @@ nomes.forEach(function (nome, index) {
     // console.log(nome + "- Nota: " + nota.toFixed(1) + " - " + situacao)
 })
 
+//    16
 // indice=nomes.indexof("lucas")
 // console.log(indice)
 
+
+//      17
 // indice=notas.findIndex(nota=> nota>9.0)
 // console.log(indice)
 
-let estaNaLista = nomes.includes("lucas")
-console.log(estaNaLista);
+//     18
+// let estaNaLista = nomes.includes("lucas")
+// console.log(estaNaLista);
+
+
+// 19
+let soma = notas.reduce((acumulador, nota) => acumulador + nota, 0)
+media = soma / notas.length
+console.log(media)
